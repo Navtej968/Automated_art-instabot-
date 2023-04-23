@@ -10,7 +10,7 @@ import os
 
 bot = Client()
 def login():
-  bot.login('ng9production@gmail.com','69xdebugger',relogin=True)
+  bot.login('Username','password',relogin=True)
 
 def getimage():
   engine_id = "stable-diffusion-v1-5"
@@ -18,7 +18,7 @@ def getimage():
   headers={
         "Content-Type": "application/json",
         "Accept": "application/json",
-        "Authorization": "sk-Aah7BEsHhPCgmujHbWAx6uxKpr9qh1xGXOIRgygtvoRL6ABE"
+        "Authorization": "API KEY Goes here "
   },
     json={
         "text_prompts": [
@@ -49,5 +49,5 @@ def main():
     getimage()
     upload_img()
     print(get_prompt())
-    time.sleep(200)
+    time.sleep(21600)
 main()
