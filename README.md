@@ -1,6 +1,6 @@
 # Automated_art-instabot-
 ## Description:
-This is a instagram bot which uses text to image ai(DreamStudio) to post a random art/picture everyday or four times a day.It generates a random prompt form descriptive words and uses that prompt to generate a image from dreamstudio and automatically post that to instagram.
+This is an instagram bot which uses text to image ai(DreamStudio) to post a random art/picture everyday .It generates a random prompt form descriptive words and uses that prompt to generate a image from dreamstudio and automatically post that image to instagram.
 ### About DreamStudio:-
 DreamStudio is a AI system powered by Stable Diffusion that can create realistic images, art and animation from a description in natural language.
 DreamStudio also offers an api for the developers which is used in this project.   (api = https://dreamstudio.com/api/)
